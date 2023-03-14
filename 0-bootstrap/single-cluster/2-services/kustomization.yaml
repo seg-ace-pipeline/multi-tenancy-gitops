@@ -1,5 +1,6 @@
 resources:
 # IBM Software
+- argocd/operators/openshift-pipelines.yaml
 - argocd/instances/artifactory.yaml
 - argocd/instances/developer-dashboard.yaml
 - argocd/instances/swaggereditor.yaml
