@@ -1,6 +1,10 @@
 resources:
 # IBM Software
-
+- argocd/instances/artifactory.yaml
+- argocd/instances/developer-dashboard.yaml
+- argocd/instances/swaggereditor.yaml
+- argocd/instances/sonarqube.yaml
+- argocd/instances/pact-broker.yaml
 ## Cloud Pak for Integration
 #- argocd/operators/ibm-ace-operator.yaml
 #- argocd/operators/ibm-apic-operator.yaml
